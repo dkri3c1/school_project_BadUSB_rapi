@@ -1,6 +1,6 @@
 # school_project_BadUSB_rapi
 
-窩的高中專題OwO
+窩的高中專題 OwO，開發板的型號是 `Raspberry Pi Pico W RP2040`
 
 ## tutorial
 
