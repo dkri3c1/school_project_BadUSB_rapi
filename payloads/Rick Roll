@@ -1,0 +1,10 @@
+REM Rick Roll with powershell 
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+DELAY 500
+ENTER
+DELAY 500
+STRING Start-Process "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+ENTER
