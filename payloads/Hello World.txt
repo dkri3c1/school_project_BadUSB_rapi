@@ -1,4 +1,4 @@
-REM Hello World in Powershell
+REM Hello World! in powershell 
 WINDOWS r
 DELAY 1000
 STRING powershell

