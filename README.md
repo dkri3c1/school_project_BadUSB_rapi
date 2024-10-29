@@ -1,8 +1,15 @@
 # school_project_BadUSB_rapi
 
-窩的高中專題 OwO，開發板的型號是 `Raspberry Pi Pico W RP2040`
+## 材料表
+
+| 材料名稱                   | 數量 |
+| -------------------------- | ---- |
+| 杜邦線                     | 1    |
+| typec -> usb 線                           |   1   |
+| Raspberry Pi Pico W RP2040 | 1    |
 
 ## tutorial
+
 
 ### 設定的檔案存在資料夾 `setup` 中
 
