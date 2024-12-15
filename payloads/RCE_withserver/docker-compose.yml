@@ -1,0 +1,10 @@
+services:
+  badusb:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - "./app:/app"
+    command: python3 /app/app.py
+    restart: unless-stopped
+    
