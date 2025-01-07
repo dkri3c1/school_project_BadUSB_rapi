@@ -31,6 +31,9 @@
 
 ### payloads 的檔案存放在資料夾 `payloads` 中
 
+## presentation
+
+專題分組課程的報告簡報還有最後比賽用的海報
 
 ## Reference:
 
